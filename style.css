@@ -1,0 +1,38 @@
+
+
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(163, 109, 212);
+    color: beige;
+    text-align: center;
+    border-radius: 40px;
+}
+
+p {
+    color: rgb(57, 57, 124);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+ol {
+    color:rgb(163, 109, 212);
+    font-family: 'Courier New', Courier, monospace;
+}
