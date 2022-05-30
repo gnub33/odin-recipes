@@ -1,20 +1,21 @@
 
 
-
 body {
-    background-color: antiquewhite;
+    background-color: #FFFEE9;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(163, 109, 212);
+    background-color: #D58258;
     color: beige;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 5px;
+    padding: .25em;
+    width: 20vw;
 }
 
 p {
-    color: rgb(57, 57, 124);
+    color: rgb(4, 27, 16);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,3 +37,88 @@ ol {
     color:rgb(163, 109, 212);
     font-family: 'Courier New', Courier, monospace;
 }
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+recipe {
+    color: #963A2F
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 17.5vh;
+}
+
+
+/* Navigation Bar */
+
+header {
+    background-color: #963a2f;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 10 0;
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+  color: #FFFEE9;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #D58258;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+  }
+  
